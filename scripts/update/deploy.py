@@ -125,8 +125,9 @@ def setup_dependencies(ctx):
         execfile(activate_env, dict(__file__=activate_env))
 
         ctx.local('pip --version')
-        ctx.local('./peep.sh install -r requirements/default.txt')
-        ctx.local('./peep.sh install -r requirements/server.txt')
+
+        ctx.local('./peep.sh install -U -r requirements/default.txt')
+        ctx.local('./peep.sh install -U -r requirements/server.txt')
         # Make the virtualenv relocatable
         ctx.local('virtualenv-2.7 --relocatable virtualenv')
 
