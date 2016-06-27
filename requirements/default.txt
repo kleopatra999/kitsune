@@ -394,3 +394,6 @@ Werkzeug==0.5.1
 # zendesk: master
 # sha256: qZay1j0xjnxeqf9KSApA23lDIepStzP_bG2lfvszujs
 https://github.com/eventbrite/zendesk/archive/1b256c3b827a8f3c6bbd3bd1fc09b7b0e2e82347.tar.gz#egg=zendesk
+# sha256: qHdlkXjQIGzCbUPl35f4CZkbGPU5-VvsWnFkHaDXDkE
+# sha256: XvDjD-6AuQMgKNaNnoaw4zH-Q3HnvArAzjLklZpH6dQ
+django-pipeline==1.6.5
